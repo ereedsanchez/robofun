@@ -1,6 +1,233 @@
 <!-- #######  YAY, I AM THE SOURCE EDITOR! #########-->
 <h1 style="color: #5e9ca0; text-align: center;">Robofun Summer 2016</h1>
-<h1 style="text-align: center;"><strong>Gorillrr</strong></h1>
+<p class="c16 c24"><span class="c7 c15">Gorillerrr: A game based on Frogger</span></p>
+<p class="c10 c24">&nbsp;</p>
+<p class="c10 c24">&nbsp;</p>
 <p>&nbsp;</p>
 <p><strong><iframe style="display: block; margin-left: auto; margin-right: auto;" src="https://www.youtube.com/embed/Nlbft7x9grY" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></strong></p>
 <p>&nbsp;</p>
+<h1 style="text-align: center;"><strong>Challenge: </strong></h1>
+<h3 style="text-align: center;"><span style="font-weight: 400;">Create and program a bluetooth controlled walking gorilla that tries to cross road without getting hit by robot vehicles. &nbsp;This is a game inspired by the Video Game FROGGER.</span></h3>
+<p class="c10">&nbsp;</p>
+<p class="c16 c24"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 452.71px; height: 276.50px;"><img style="width: 452.71px; height: 276.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="" src="images/image01.gif" alt="ezgif.com-crop.gif" /></span></p>
+<p class="c10 c24">&nbsp;</p>
+<p class="c10">&nbsp;</p>
+<p class="c16"><span class="c0 c7">Blueprints needed: </span></p>
+<ul class="c5 lst-kix_bkswurk8fdd4-0 start">
+<li class="c16 c22"><span class="c0">Buddy Bot</span></li>
+<li class="c16 c22"><span class="c0">Gorilla Bot</span></li>
+</ul>
+<p class="c16"><span class="c0 c7">Concepts that should be covered: </span></p>
+<ul class="c5 lst-kix_xq1ygwee91fi-0 start">
+<li class="c16 c22"><span class="c0">Piece ID</span></li>
+<li class="c16 c22"><span class="c0">What is a robot?</span></li>
+<li class="c16 c22"><span class="c0">What are the inputs and outputs?</span></li>
+<li class="c16 c22"><span class="c0">What does a motor do?</span></li>
+<li class="c16 c22"><span class="c0">Bluetooth - sending and receiving messages</span></li>
+</ul>
+<p class="c16"><span class="c0 c7">Prior to starting:</span></p>
+<ul class="c5 lst-kix_2j0vwykh0okm-0 start">
+<li class="c16 c22"><span class="c0">Have EV3 bricks paired via bluetooth. &nbsp;Label both EV3 bricks: Gorilla 1 / Controller 1, Gorilla 2 / Controller 2, etc..</span></li>
+<li class="c16 c22"><span class="c0">Review bluetooth guide</span></li>
+</ul>
+<p class="c10">&nbsp;</p>
+<p class="c16"><span class="c0 c7">How the game Works</span></p>
+<p class="c16"><span class="c0">Students will controll Gorilla robot with a bluetooth controller, and try to cross the &ldquo;road&rdquo;.</span></p>
+<p class="c16"><span class="c0">2-3 other buddy bots will move back and forth. The Buddy Bots will have a sensor that will make them reverse direction when they hit a wall. &nbsp;</span></p>
+<p class="c16"><span class="c0">If Gorilla gets across without getting hit he wins. &nbsp;If he gets hit by Buddy Bot he losses. &nbsp;</span></p>
+<p class="c10">&nbsp;</p>
+<p class="c10">&nbsp;</p>
+<p class="c16 c24"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 623.98px; height: 359.99px;"><img style="width: 623.98px; height: 359.99px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="" src="images/image05.png" alt="" /></span></p>
+<p class="c10 c24">&nbsp;</p>
+<p class="c16"><span class="c0 c7">Suggested Structure &nbsp;</span></p>
+<p class="c16"><span class="c0 c7">for 2 Different Teams - Gorillas and Buddy Bots</span></p>
+<p class="c10">&nbsp;</p>
+<p><a id="t.e64fcaabe1967f3e35ef5737c2d22edba2b376b7"></a><a id="t.0"></a></p>
+<table class="c11">
+<tbody>
+<tr class="c9">
+<td class="c27" colspan="1" rowspan="1">
+<p class="c8"><span class="c4 c0">Monday</span></p>
+<ul class="c5 lst-kix_o8e7btv8reeb-0 start">
+<li class="c3"><span class="c1 c0">Intros/Icebreaker</span></li>
+<li class="c3"><span class="c1 c0">3B, Brain, Body, Behavior</span></li>
+<li class="c3"><span class="c1 c0">Piece ID</span></li>
+<li class="c3"><span class="c1 c0">Overview of the week - Show Videos of real Frogger Game, and Gorilla robot. &nbsp;</span></li>
+</ul>
+<p class="c2">&nbsp;</p>
+<ul class="c5 lst-kix_o8e7btv8reeb-0">
+<li class="c3"><span class="c0">Make </span><span class="c0">5</span><span class="c0">&nbsp;groups - 3 build</span><span class="c0">&nbsp;buddy bot / 2 build gorilla</span><span class="c1 c0">. Place more advance students in Gorilla Group</span></li>
+</ul>
+<p class="c2">&nbsp;</p>
+<ul class="c5 lst-kix_o8e7btv8reeb-0">
+<li class="c3"><span class="c0 c7">Buddy Bot Groups:</span><span class="c1 c0">&nbsp;Add Front Wheels </span></li>
+<li class="c3"><span class="c1 c0">Basic Programming - Move Forward and backwards. </span></li>
+</ul>
+<p class="c2">&nbsp;</p>
+<ul class="c5 lst-kix_o8e7btv8reeb-0">
+<li class="c3"><span class="c0 c7">Gorilla Bot Groups:</span><span class="c1 c0">&nbsp;47 Pages, Might take group 1 - 2 sessions to complete</span></li>
+</ul>
+<p class="c2">&nbsp;</p>
+<ul class="c5 lst-kix_o8e7btv8reeb-0">
+<li class="c3"><span class="c1 c0">Closing Circle / Challenges</span></li>
+</ul>
+<p class="c2">&nbsp;</p>
+<p class="c21">&nbsp;</p>
+</td>
+<td class="c23" colspan="1" rowspan="1">
+<p class="c12"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 182.00px; height: 163.00px;"><img style="width: 240.00px; height: 180.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="" src="images/image00.png" alt="Extra_wheel.png" /></span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 60.00px; height: 30.00px;"><img style="width: 60.00px; height: 30.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="" src="images/image03.png" alt="" /></span></p>
+<p class="c8"><span class="c0 c7">Front Wheels</span><span class="c1 c0"><br />For the bot to easily move back and forth, 1 or 2 wheels need to be added to the front of the robot. &nbsp;</span></p>
+<p class="c6">&nbsp;</p>
+<p class="c12"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 225.50px; height: 166.10px;"><img style="width: 225.50px; height: 168.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="" src="images/image02.jpg" alt="" /></span></p>
+</td>
+</tr>
+<tr class="c9">
+<td class="c27" colspan="1" rowspan="1">&nbsp;</td>
+<td class="c23" colspan="1" rowspan="1">&nbsp;</td>
+</tr>
+<tr class="c9">
+<td class="c27" colspan="1" rowspan="1">
+<p class="c8"><span class="c4 c0">Tuesday</span></p>
+<ul class="c5 lst-kix_o8e7btv8reeb-0">
+<li class="c3"><span class="c1 c0">Lesson: Sensors and Messages</span></li>
+</ul>
+<p class="c2">&nbsp;</p>
+<ul class="c5 lst-kix_o8e7btv8reeb-0">
+<li class="c3"><span class="c0 c7">Buddy Bot Groups:</span><span class="c1 c0">&nbsp;Add 2 sensor Attachments </span></li>
+<li class="c3"><span class="c1 c0">Programming - Move Forward and backwards with sensor attachments.</span></li>
+</ul>
+<p class="c2">&nbsp;</p>
+<ul class="c5 lst-kix_o8e7btv8reeb-0">
+<li class="c3"><span class="c0 c7">Gorilla Bot Groups:</span><span class="c1 c0">&nbsp;Finish Gorilla. &nbsp;Begin Bluetooth Programming</span></li>
+</ul>
+<p class="c2">&nbsp;</p>
+<ul class="c5 lst-kix_o8e7btv8reeb-0">
+<li class="c3"><span class="c1 c0">Closing Circle / Challenges</span></li>
+</ul>
+<p class="c2">&nbsp;</p>
+</td>
+<td class="c23" colspan="1" rowspan="1">
+<p class="c12"><span class="c17 c0 c7">Sensors and Messages</span></p>
+<p class="c8"><span class="c0">A </span><span class="c0 c7">sensor</span><span class="c0">&nbsp;is a device that detects, or </span><span class="c0 c26">senses</span><span class="c0">, a </span><span class="c0"><a class="c25" href="https://www.google.com/url?q=http://encyclopedia.kids.net.au/page/si/Signal&amp;sa=D&amp;ust=1462904077062000&amp;usg=AFQjCNE5lzx1AIZ4mp-IAl6FzWupIvEkQA">signal</a></span><span class="c0">. Most sensors are </span><span class="c0"><a class="c25" href="https://www.google.com/url?q=http://encyclopedia.kids.net.au/page/el/Electricity&amp;sa=D&amp;ust=1462904077063000&amp;usg=AFQjCNE8Z-DBHfyBIHd2XmELDrlssYnO_A">electrical</a></span><span class="c0">&nbsp;or </span><span class="c0"><a class="c25" href="https://www.google.com/url?q=http://encyclopedia.kids.net.au/page/el/Electronics&amp;sa=D&amp;ust=1462904077064000&amp;usg=AFQjCNF4zRWfa988o2wC9myGZJaGc4yvKA">electronic</a></span><span class="c1 c0">, and are based on our 5 senses. &nbsp;</span></p>
+<p class="c8"><span class="c1 c0 c20">What are our 5 senses? &nbsp;</span></p>
+<p class="c8"><span class="c1 c0 c20">Based on our 5 Senses what kind of sensors do you think we can use? &nbsp;</span></p>
+<p class="c8"><span class="c1 c0 c19">Touch(Button, Button on Brick/Bluetooth), </span></p>
+<p class="c8"><span class="c1 c0 c19">(Sight) Ultrasonic, Sound</span></p>
+<p class="c8"><span class="c1 c0">These sensors, when they sense something (touch, sound, see, etc), they send a message to the computer - or the Brain. &nbsp;The Computer then tells the robot to do something. &nbsp;</span></p>
+<p class="c2">&nbsp;</p>
+<p class="c8"><span class="c1 c0">Messages can be sent in many ways. &nbsp;</span></p>
+<p class="c8"><span class="c0 c20">How do you send messages? </span><span class="c1 c0 c19">(Notes, Talking, Email)</span></p>
+<p class="c2">&nbsp;</p>
+<p class="c8"><span class="c0">Robots send </span><span class="c0">electronic messages. &nbsp;</span><span class="c1 c0 c20">How do you think they send messages? &nbsp;</span></p>
+<p class="c8"><span class="c0 c19">Messages can be sent through a </span><span class="c0 c19 c7">WIRE</span><span class="c0 c19">, or with the Gorilla we will be sending messages using </span><span class="c0 c19 c7">BLUETOOTH</span><span class="c0 c19">.</span><span class="c1 c0">&nbsp; </span></p>
+<p class="c2">&nbsp;</p>
+<p class="c8"><span class="c1 c0 c20">Does anyone know what bluetooth is, or where we use it? &nbsp;</span></p>
+<p class="c2">&nbsp;</p>
+<p class="c8"><span class="c1 c0">Bluetooth is a wireless way to send messages over the air. &nbsp;It uses radio waves. These are the same waves that we use to send wifi for internet, or when we listen to the radio. Common uses of bluetooth are sending audio to headphones or speakers. &nbsp;One great thing about bluetooth is does not use a lot of power, and we can control it, we decide what messages we are going to send. &nbsp;</span></p>
+<p class="c2">&nbsp;</p>
+<p class="c12"><span class="c0 c7">BuddyBot: 2 Sensor Attachment</span></p>
+<p class="c8"><span class="c0 c1">Attached 2 sensors to buddy bot. &nbsp;One in the front one in the back. &nbsp;When sensor is activated it should make BuddyBot reverse its direction. </span></p>
+<p class="c2">&nbsp;</p>
+<p class="c12"><span class="c0">&nbsp;</span><span class="c4 c0">&nbsp;Gorilla Group: Bluetooth</span></p>
+<p class="c8"><span class="c1 c0">Students complete Gorila. They can test it out wit a simple program to make bot walk forward. &nbsp;</span></p>
+<p class="c8"><span class="c1 c0">Do a lesson on Bluetooth. &nbsp;Show them the steps to send messages to bots.</span></p>
+<p class="c8"><span class="c1 c0">Challenge: 1. What is the best walking speed for Gorilla?</span></p>
+<p class="c8"><span class="c1 c0">2. </span></p>
+<p class="c6">&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="c10">&nbsp;</p>
+<p class="c10">&nbsp;</p>
+<p class="c10">&nbsp;</p>
+<p><a id="t.ab79c514084912ecab355a59d8d9e166e22e418d"></a><a id="t.1"></a></p>
+<table class="c11">
+<tbody>
+<tr class="c9">
+<td class="c14" colspan="1" rowspan="1">
+<p class="c8"><span class="c4 c0">Wednesday</span></p>
+<ul class="c5 lst-kix_o8e7btv8reeb-0">
+<li class="c3"><span class="c1 c0">Both groups finish up their program.</span></li>
+<li class="c3"><span class="c1 c0">Setup 2 Game course. &nbsp;</span></li>
+<li class="c3"><span class="c0">Have Gorilla walk across course and avoid bots going back and forth. Make sure each students gets a chance to use gorilla. </span></li>
+<li class="c3"><span class="c1 c0">Challenge 1:Create multiple speed program for gorilla. Create multiple speed for Buddybots. &nbsp;</span></li>
+<li class="c3"><span class="c1 c0">Challenge 2: MAke your bot unique, but can still function. &nbsp;Give Gorilla a moving head. &nbsp;Give Buddy Bot and arm to try to touch Gorilla.</span></li>
+</ul>
+<p class="c2">&nbsp;</p>
+<ul class="c5 lst-kix_o8e7btv8reeb-0">
+<li class="c3"><span class="c1 c0">Closing Circle / Challenges</span></li>
+</ul>
+<p class="c2">&nbsp;</p>
+</td>
+<td class="c18" colspan="1" rowspan="1">
+<p class="c12"><span class="c0 c7 c17">Gorillarrr Course</span></p>
+<p class="c2">&nbsp;</p>
+<p class="c2">&nbsp;</p>
+<p class="c6">&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="c10">&nbsp;</p>
+<p class="c10">&nbsp;</p>
+<p class="c10">&nbsp;</p>
+<p class="c10">&nbsp;</p>
+<p><a id="t.0180b9045e113870292741937076b8fde0e9827b"></a><a id="t.2"></a></p>
+<table class="c11">
+<tbody>
+<tr class="c9">
+<td class="c14" colspan="1" rowspan="1">
+<p class="c8"><span class="c4 c0">Thursday</span></p>
+<ul class="c5 lst-kix_o8e7btv8reeb-0">
+<li class="c3"><span class="c1 c0">Make Adjustments to bots. &nbsp;Speed. </span></li>
+<li class="c3"><span class="c1 c0">Gorilla should have a second motor attachemtn: Head or tail</span></li>
+<li class="c3"><span class="c0">Set up competition, @ gorillas on same course. &nbsp; </span></li>
+</ul>
+<p class="c2">&nbsp;</p>
+<ul class="c5 lst-kix_o8e7btv8reeb-0">
+<li class="c3"><span class="c0">Closing Circle / Challenges</span></li>
+</ul>
+<p class="c2">&nbsp;</p>
+</td>
+<td class="c18" colspan="1" rowspan="1">
+<p class="c12"><span class="c17 c0 c7">Gorillarrr Course</span></p>
+<p class="c2">&nbsp;</p>
+<p class="c2">&nbsp;</p>
+<p class="c6">&nbsp;</p>
+<p class="c6">&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="c10">&nbsp;</p>
+<p class="c10">&nbsp;</p>
+<p><a id="t.5c5796b6841d3ea950ac92e27bc22a1339a6011e"></a><a id="t.3"></a></p>
+<table class="c11">
+<tbody>
+<tr class="c9">
+<td class="c14" colspan="1" rowspan="1">
+<p class="c8"><span class="c4 c0">Friday</span></p>
+<ul class="c5 lst-kix_o8e7btv8reeb-0">
+<li class="c3"><span class="c1 c0">Final Changes</span></li>
+<li class="c3"><span class="c0">Parents Show</span></li>
+</ul>
+<p class="c2">&nbsp;</p>
+<ul class="c5 lst-kix_o8e7btv8reeb-0">
+<li class="c3"><span class="c1 c0">Certificates</span></li>
+</ul>
+<p class="c2">&nbsp;</p>
+</td>
+<td class="c18" colspan="1" rowspan="1">
+<p class="c12"><span class="c17 c0 c7">Gorillarrr Course</span></p>
+<p class="c2">&nbsp;</p>
+<p class="c2">&nbsp;</p>
+<p class="c6">&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="c10">&nbsp;</p>
+<p class="c10">&nbsp;</p>
+<p class="c10">&nbsp;</p>
+<p class="c16 c24"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 542.50px; height: 410.59px;"><img style="width: 542.50px; height: 410.59px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="" src="images/image04.gif" alt="giphy.gif" /></span></p>
